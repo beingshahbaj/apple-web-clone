@@ -1,0 +1,44 @@
+@media screen and (max-width:480px) {
+    .sidebar{
+        display: inline-block;
+        position: absolute;
+
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .close{
+        display: inline-block;
+        right: 0;
+        /* left: 94px; */
+        top: 41px;
+        display: inline-block;
+        position: absolute;
+    }
+    .first-header {
+        z-index: 5;
+        /* left: -100%; */
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        width: 40vw;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    nav ul {
+        position: relative;
+        gap: 29px;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        align-items: baseline;
+        flex-direction: column;
+    }
+}
