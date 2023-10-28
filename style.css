@@ -5,20 +5,14 @@
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
-  /* display: none; */
-  width: 8px;
-  background-color: #c5c5c5;
 
-}
 
 .container{
   padding-inline: 30px;
   background-color: #eaeaea;
 }
 body {
-  /* margin-inline: 20px; */
-  width: 100vw;
+ 
 }
 a {
   color: white;
@@ -90,7 +84,7 @@ padding-inline: 15px;
 
 }
 .second-header ul {
-  
+
   flex-wrap: wrap;
   text-align: center;
   display: flex;
