@@ -90,6 +90,7 @@ padding-inline: 15px;
 
 }
 .second-header ul {
+  
   flex-wrap: wrap;
   text-align: center;
   display: flex;

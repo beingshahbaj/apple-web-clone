@@ -21,6 +21,13 @@
         /* display: grid;
         grid-template-columns: repeat(5 , 1fr); */
     }
+    .second-header ul {
+        flex-wrap: wrap;
+        text-align: center;
+        display: flex;
+        gap: 31px;
+        justify-content: flex-start;
+    }
 
     .third .box-3 {
         justify-content: center;
