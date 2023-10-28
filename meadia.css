@@ -1,44 +1,200 @@
-@media screen and (max-width:480px) {
-    .sidebar{
-        display: inline-block;
-        position: absolute;
-
-    }
-
-    .header{
-        position: relative;
-    }
-
-    .close{
-        display: inline-block;
-        right: 0;
-        /* left: 94px; */
-        top: 41px;
-        display: inline-block;
-        position: absolute;
-    }
+@media screen and (max-width:954px) {
+   
     .first-header {
-        z-index: 5;
+        /* z-index: 5; */
         /* left: -100%; */
-        top: 0;
-        bottom: 0;
-        position: fixed;
-        display: flex;
-        height: 100vh;
+        top: 0;/
+        /* bottom: 0; */
+        /* position: fixed; */
+        /* display: flex; */
+        height: 100%;
         background: rgba(0, 0, 0, 0.8);
-        width: 40vw;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        /* width: 40vw; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* align-content: center; */
     }
 
     nav ul {
-        position: relative;
-        gap: 29px;
         display: flex;
+        flex-wrap: wrap;
+        /* display: grid;
+        grid-template-columns: repeat(5 , 1fr); */
+    }
+
+    .third .box-3 {
         justify-content: center;
-        align-content: space-around;
-        align-items: baseline;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-3 .box-5 {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .main-2 .first {
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        width: 100vw;
+        height: 62%;
+    }
+
+    .box-4{
+        text-align: center;
+    }
+
+    .main-2 .first .box4 .content {
+        display: flex;
+        padding:0;
         flex-direction: column;
+        /* justify-content: flex-end; */
+        align-items: center;
+        gap: 21px;
+    }
+
+    .main-2 .first .box4 .content .in  , .main-2 .first .inline-2{
+        color: black;
+    }
+
+    .main-4 .first .poster {
+        display: flex;
+        padding: 17px 45.078px 15px 23.031px;
+        justify-content: center;
+        align-items: center;
+        gap: 25.063px;
+        flex-shrink: 0;
+        flex-direction: column;
+    }
+
+
+    .main-4 .second .poster ul {
+        gap: 27px;
+        overflow: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        /* row-gap: 10px; */
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+    .main-4 .second .poster .inline-2 {
+        color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35.008px;
+        letter-spacing: -0.144px;
+    }
+
+    .main-4 .third {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 100%;
+        background: none;
+        gap: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-4 .third .credit, .card {
+        width: 100%;
+    }
+
+    .main-4 .first {
+        width: 100%;
+        height: auto;
+        /* background: #01012a; */
+    }
+
+    .heading {
+        margin: 30px;
+        color: #1d1d1f;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: -0.28px;
+    }
+
+    .main-4 .fifth {
+        gap: 39px;
+        margin-bottom: 7px;
+        display: flex;
+        background: white;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+
+    .main-4 .eight h1 {
+        margin: 10px;;
+        color: #1d1d1f;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: -0.28px;
+    }
+
+    .credit h1, .card  h1 {
+        color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 43.008px;
+        
+        letter-spacing: -0.144px;
+    }
+    .main-4 .nine {
+        display: flex;
+        background: white;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-4 .ten {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: max-content;
+        background: none;
+        gap: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .main-4 .twelve {
+       
+        padding-inline: 10px;
+    }
+
+    .f-1{
+        padding: 10px;
+    }
+
+    .footer-section {
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .del{
+        display: none;
     }
 }
